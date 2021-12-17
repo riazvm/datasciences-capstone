@@ -1,0 +1,2 @@
+# datasciences-capstone
+The goal of this project is to build a movie recommendation system using machine learning.In this project, we will explore and visualize the MovieLens dataset that consists of over 10 million film ratings. We will develop an ML model by creating both training and test sets to predict movie ratings on a validation set that results in an RMSE or Root Mean Square Error of less than .87750.
