@@ -1,6 +1,6 @@
 # datasciences-capstone
 # Introduction
-The goal of this project is to build a movie recommendation system using machine learning.In this project, we will explore and visualize the MovieLens dataset that consists of over 10 million film ratings. We will develop an ML model by creating both training and test sets to predict movie ratings on a validation set that results in an RMSE or Root Mean Square Error of less than .87750. <br>
+The goal of this project is to build a movie recommendation system using machine learning.In this project, we will explore and visualize the MovieLens dataset that consists of over 10 million film ratings. We will develop an ML model by creating both training and test sets to predict movie ratings on a validation set that results in an RMSE or Root Mean Square Error of less than .86481. <br>
 The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed
 
 # Dataset

@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Introduction
-The goal of this project is to build a movie recommendation system using machine learning.In this project, we will explore and visualize the MovieLens dataset that consists of over 10 million film ratings. We will develop an ML model by creating both training and test sets to predict movie ratings on a validation set that results in an RMSE or Root Mean Square Error of less than .87750. <br>
+The goal of this project is to build a movie recommendation system using machine learning.In this project, we will explore and visualize the MovieLens dataset that consists of over 10 million film ratings. We will develop an ML model by creating both training and test sets to predict movie ratings on a validation set that results in an RMSE or Root Mean Square Error of less than .86481. <br>
 The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed
 
 # Dataset
@@ -901,7 +901,7 @@ rmse_results_val %>% knitr::kable(., format = "pipe", padding = 2)
 **Conclusion:** Movie and User Bias RMSE with regularization results in : **0.864817**
 
 # Results and Inference
-Our final model has resulted in an RMSE of 0.86481 which is below the targeted RMSE of **0.8775**. The final model we derived was the Movie and User Effect with Regularization. We have seen that the movie, users bias are factors that contribute to the ratings heavily. Age is also a factor, but we saw that the RMSE decreased but not by a lot.
+Our final model has resulted in an RMSE of **0.86481** which is below the targeted RMSE of **0.8775**. The final model we derived was the Movie and User Effect with Regularization. We have seen that the movie, users bias are factors that contribute to the ratings heavily. Age is also a factor, but we saw that the RMSE decreased but not by a lot.
 
 ```{r warning=FALSE}
 ## Save Results in Data Frame
